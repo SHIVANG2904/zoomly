@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://github.com/ansulagrawal/zoom-clone/assets/55939700/4c81e4d3-16d9-4392-9c42-9f2920d0867d" alt="Project Banner">
+
 
   <br />
 
@@ -74,7 +74,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/ansulagrawal/zoom-clone.git
+git clone https://github.com/SHIVANG2904/zoomly.git
 cd zoom-clone
 ```
 
