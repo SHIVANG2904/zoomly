@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
   <br />
-  <h1 align="center">A Zoom Clone</h1>
+  <h1 align="center">Meeting Scheduler And Organizer</h1>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -22,7 +22,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
+Built with the latest Next.js and TypeScript, A widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -75,7 +75,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/SHIVANG2904/zoomly.git
-cd zoom-clone
+cd zoomly
 ```
 
 **Installation**
