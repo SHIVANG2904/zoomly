@@ -59,6 +59,37 @@ Built with the latest Next.js and TypeScript, A widely used video conferencing t
 
 and many more, including code architecture and reusability.
 
+## 🎯 Project Architecture  
+
+```txt
+       +--------------------+
+       |   Frontend (Next.js) |
+       +--------------------+
+                |
+                v
+       +----------------------+
+       | Authentication (Clerk) |
+       +----------------------+
+                |
+                v
+       +----------------------+
+       |  Backend (GetStream IO) |
+       +----------------------+
+                |
+        -----------------------------
+        |                           |
+        v                           v
++-----------------+          +------------------+
+|  WebRTC (P2P)   |          |  Real-Time Chat   |
+|  Video Calls    |          |  (WebSockets)    |
++-----------------+          +------------------+
+        |                           |
+        v                           v
++-----------------+          +---------------------+
+|  Participant    |          |  Screen Sharing    |
+|  Management    |<-------->|  Media Streaming   |
++-----------------+          +---------------------+
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
