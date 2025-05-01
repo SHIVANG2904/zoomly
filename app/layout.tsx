@@ -23,10 +23,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     <html lang="en">
       <ClerkProvider
         appearance={{
-          layout: {
-            socialButtonsVariant: 'iconButton',
-            logoImageUrl: '/icons/yoom-logo.svg',
-          },
+         
           variables: {
             colorText: '#fff',
             colorPrimary: '#0E78F9',
